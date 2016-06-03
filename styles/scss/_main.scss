@@ -1,0 +1,128 @@
+
+$primary-gray: #929292;
+$secondary-green: #3BB991;
+
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
+#logo {
+    color: $primary-gray;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.hero {
+  height: 660px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url('../../images/pillow.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+  li {
+    display: inline;
+    margin: 10px;
+  }
+
+  li a {
+    text-decoration: none;
+    color: $primary-gray;
+  }
+
+#typing {
+  margin-top: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#typingText, .typed-cursor {
+  font-size: 1.8em;
+  font-weight: 300;
+  line-height: 1.8em;
+}
+
+#startButton {
+  position: absolute;
+  top: 500px;
+  right: 15%;
+  width: 200px;
+  height: 60px;
+  border: none;
+  background-color: $secondary-green;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.quote {
+  text-align: center;
+}
+
+  h1, span {
+    font-weight: 300;
+  }
+
+.goalForm {
+  margin: 0 auto;
+  width: 500px;
+}
+
+  input {
+    text-align: center;
+    height: 35px;
+    font-size: 1.0em;
+    font-weight: 300;
+  }
+
+#goalInput {
+  width: 100%;
+  margin: 30px auto;
+}
+
+#monthInput, #dayInput {
+  width: 48%;
+}
+
+#dayInput {
+  float: right;
+}
+
+#goalSubmit {
+  margin: 20px auto;
+  width: 30%;
+  display: block;
+  border-radius: 5px;
+  border: 0;
+  height: 50px;
+  color: #ffffff;
+  background-color: $secondary-green;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline-color: #fff;
+    border-width: 1px;
+}
+
+#startButton a {
+  text-decoration: none !important;
+  color: #fff;
+}
+
+a:visited {
+  text-decoration: none !important;
+}
